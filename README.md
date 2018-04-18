@@ -13,7 +13,9 @@ object-oriented programming.
 * This exercise should not take you more than two hours to complete.
 * You may submit your response in one of the following ways:
   * Package up an archive (ZIP, tarball, etc.) of your files and deliver it to
-    your contact (<careers+dev@shootproof.com> of your recruiting firm contact).
+    your contact.
+    * If working with a recruiter, deliver it to them.
+    * If working with ShootProof directly, deliver to <careers+dev@shootproof.com>.
   * Fork our repository and open a pull request.
 
 # Exercises
