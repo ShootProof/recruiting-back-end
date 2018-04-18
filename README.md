@@ -8,9 +8,13 @@ approach to working with technologies commonly used here at ShootProof.
 # Guidelines
 
 We are including two different exercises: one for data modeling, and another
-object-oriented design.
+object-oriented programming.
 
-* This exercise should not take you more than two hours to complete
+* This exercise should not take you more than two hours to complete.
+* You may submit your response in one of the following ways:
+  * Package up an archive (ZIP, tarball, etc.) of your files and deliver it to
+    your contact (<careers+dev@shootproof.com> of your recruiting firm contact).
+  * Fork our repository and open a pull request.
 
 # Exercises
 
