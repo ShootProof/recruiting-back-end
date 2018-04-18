@@ -11,6 +11,7 @@ We are including two different exercises: one for data modeling, and another
 object-oriented programming.
 
 * This exercise should not take you more than two hours to complete.
+* All exercises are to be performed as if you were on the job.
 * You may submit your response in one of the following ways:
   * Package up an archive (ZIP, tarball, etc.) of your files and deliver it to
     your contact.
@@ -29,17 +30,17 @@ processing functionality.
 
 Define a data model that:
 
-* Allows a user to create a photo gallery
-* Allows the photo gallery to have photos uploaded into it
-* Allows the photo gallery to contain zero or more albums
-* Allows the photo gallery's photos to be placed within an album
+* Allows a user to create a photo gallery.
+* Allows the photo gallery to have photos uploaded into it.
+* Allows the photo gallery to contain zero or more albums.
+* Optionally allows a photo to be placed within one or more albums.
 
 A complete submission will:
 
-* Illustrate the tables and their relationships to one another
+* Illustrate the database tables and their relationships to one another
 * Illustrate the columns present in each table, along with their data type and
   size
-* Be provided in a manner you deem appropriate to accomplish the goal
+* Be documented in a manner you deem appropriate to accomplish the goal
   (entity-relationship diagram, a series of DDL statements showing the actual
   creation of the tables, etc.).
 
