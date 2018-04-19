@@ -57,29 +57,12 @@ A complete submission will:
 * Be documented in a manner you deem appropriate to accomplish the goal
   (entity-relationship diagram, UML, etc.).
 
-
-### Part 2: Database design
-
-**Goal:** create data definition language (DDL) statements to create tables
-for the data model defined in Part 1.
-
-A complete submission will:
-
-* Include a `.sql` migration script containing DDL statements.
-* Define the database tables and their relationships to one another.
-* Define the columns present in each table, along with their data type and
-  size.
-
-We should be able to run the following commands and discuss your database
-design with you:
-
-```
-mysqladmin -u root create my_database
-mysql -u root my_database < your-script.sql
-```
+**Extra credit:** Include data definition language (DDL) statements to create
+tables for the data model.  Define the columns present in each table, along with
+their data type and size.
 
 
-### Part 3: Object-oriented programming
+### Part 2: Object-oriented programming
 
 **Goal:** convert the data/domain model defined in Part 1 into working PHP
 classes.
@@ -102,9 +85,9 @@ within your classes.
 of this exercise. Instead, focus on translating the domain into classes.*
 
 
-### (Optional) Part 4: Hypermedia API design (REST)
+### (Optional) Part 3: Hypermedia API design (REST)
 
-**Goal::** design endpoints for a hypermedia API that will be used by API
+**Goal:** design endpoints for a hypermedia API that will be used by API
 consumers to create, read, update, and delete galleries, albums, and photos.
 
 A complete submission will:
@@ -116,8 +99,8 @@ A complete submission will:
 * Define all the operations that may be performed on each entity through the API
   and map HTTP methods to these operations.
 * Show example HTTP requests and responses.
-* Be documented in a manner you deem appropriate to accomplish the goal
-  (OpenAPI, API Blueprint, Markdown, etc.).
+* Optionally, be documented in a manner you deem appropriate to accomplish the
+  goal (OpenAPI, API Blueprint, Markdown, etc.).
 * Optionally, describe the HTTP status codes that might be returned by each
   operation.
 * Optionally, design API error responses that might occur for certain
