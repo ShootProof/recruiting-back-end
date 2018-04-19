@@ -57,9 +57,11 @@ A complete submission will:
 * Be documented in a manner you deem appropriate to accomplish the goal
   (entity-relationship diagram, UML, etc.).
 
-**Extra credit:** Include data definition language (DDL) statements to create
-tables for the data model.  Define the columns present in each table, along with
-their data type and size.
+#### Extra credit
+
+* Include data definition language (DDL) statements to create tables for the
+  data model.  Define the columns present in each table, along with their data
+  type and size.
 
 
 ### Part 2: Object-oriented programming
@@ -73,16 +75,18 @@ A complete submission will:
 * Include functionality to access and manipulate the data properties of each
   entity in the model.
 * Expose the relationships among the entities through the use of code.
-* Optionally, include code to illustrate any behaviors you've considered (this
-  may be stubbed code).
-* Optionally, include unit tests for these classes; if included, we should be
-  able to run the tests to see them passing.
-
-**Extra credit:** Show the use of a third-party dependency integrated and used
-within your classes.
 
 *Please note: Making database requests from these classes is not in the scope
 of this exercise. Instead, focus on translating the domain into classes.*
+
+#### Extra credit
+
+* Include code to illustrate any behaviors you've considered (this may be
+  stubbed code).
+* Include unit tests for these classes; if included, we should be able to run
+  the tests to see them passing.
+* Show the use of a third-party dependency integrated and used within your
+  classes.
 
 
 ### (Optional) Part 3: Hypermedia API design (REST)
@@ -99,9 +103,10 @@ A complete submission will:
 * Define all the operations that may be performed on each entity through the API
   and map HTTP methods to these operations.
 * Show example HTTP requests and responses.
-* Optionally, be documented in a manner you deem appropriate to accomplish the
-  goal (OpenAPI, API Blueprint, Markdown, etc.).
-* Optionally, describe the HTTP status codes that might be returned by each
-  operation.
-* Optionally, design API error responses that might occur for certain
-  operations.
+
+#### Extra credit
+
+* Document the API in a manner you deem appropriate to accomplish the goal
+  (OpenAPI, API Blueprint, Markdown, etc.).
+* Describe the HTTP status codes that might be returned by each operation.
+* Design API error responses that might occur for certain operations.
