@@ -57,29 +57,14 @@ A complete submission will:
 * Be documented in a manner you deem appropriate to accomplish the goal
   (entity-relationship diagram, UML, etc.).
 
+#### Extra credit
 
-### Part 2: Database design
-
-**Goal:** create data definition language (DDL) statements to create tables
-for the data model defined in Part 1.
-
-A complete submission will:
-
-* Include a `.sql` migration script containing DDL statements.
-* Define the database tables and their relationships to one another.
-* Define the columns present in each table, along with their data type and
-  size.
-
-We should be able to run the following commands and discuss your database
-design with you:
-
-```
-mysqladmin -u root create my_database
-mysql -u root my_database < your-script.sql
-```
+* Include data definition language (DDL) statements to create tables for the
+  data model.  Define the columns present in each table, along with their data
+  type and size.
 
 
-### Part 3: Object-oriented programming
+### Part 2: Object-oriented programming
 
 **Goal:** convert the data/domain model defined in Part 1 into working PHP
 classes.
@@ -90,21 +75,23 @@ A complete submission will:
 * Include functionality to access and manipulate the data properties of each
   entity in the model.
 * Expose the relationships among the entities through the use of code.
-* Optionally, include code to illustrate any behaviors you've considered (this
-  may be stubbed code).
-* Optionally, include unit tests for these classes; if included, we should be
-  able to run the tests to see them passing.
-
-**Extra credit:** Show the use of a third-party dependency integrated and used
-within your classes.
 
 *Please note: Making database requests from these classes is not in the scope
 of this exercise. Instead, focus on translating the domain into classes.*
 
+#### Extra credit
 
-### (Optional) Part 4: Hypermedia API design (REST)
+* Include code to illustrate any behaviors you've considered (this may be
+  stubbed code).
+* Include unit tests for these classes; if included, we should be able to run
+  the tests to see them passing.
+* Show the use of a third-party dependency integrated and used within your
+  classes.
 
-**Goal::** design endpoints for a hypermedia API that will be used by API
+
+### (Optional) Part 3: Hypermedia API design (REST)
+
+**Goal:** design endpoints for a hypermedia API that will be used by API
 consumers to create, read, update, and delete galleries, albums, and photos.
 
 A complete submission will:
@@ -116,9 +103,10 @@ A complete submission will:
 * Define all the operations that may be performed on each entity through the API
   and map HTTP methods to these operations.
 * Show example HTTP requests and responses.
-* Be documented in a manner you deem appropriate to accomplish the goal
+
+#### Extra credit
+
+* Document the API in a manner you deem appropriate to accomplish the goal
   (OpenAPI, API Blueprint, Markdown, etc.).
-* Optionally, describe the HTTP status codes that might be returned by each
-  operation.
-* Optionally, design API error responses that might occur for certain
-  operations.
+* Describe the HTTP status codes that might be returned by each operation.
+* Design API error responses that might occur for certain operations.
