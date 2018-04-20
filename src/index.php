@@ -3,6 +3,11 @@
   $mygallery = new gallery();
   $mygallery->set_name("Nick made this");
 
-  echo "Gallery title:" . $mygallery->get_name();
+  $myalbum = new album();
+  $myalbum->set_name("Someone else made this");
 
+  echo "Gallery title:" . $mygallery->get_name();
+  echo "\n";
+  echo "Album title:" . $myalbum->get_name();
+  echo "\n";
  ?>
