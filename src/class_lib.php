@@ -1,4 +1,5 @@
 <?php
+
   class user {
     var $id;
     function get_id() {
@@ -40,7 +41,7 @@
     }
   }
 
-  class collection {
+  class photo_collection {
     var $id;
     var $name;
     var $visiblity;
@@ -72,13 +73,21 @@
     }
   }
 
-  class gallery extends collection {
+  class gallery extends photo_collection {
   }
 
   class gallery_item extends item {
   }
 
-  class album extends collection {
+  class album extends photo_collection {
+    var $album_items = array();
+
+    function get_album_items() {
+      return $this->album_items;
+    }
+    function set_album_item($new_item) {
+      $this->album_items->addItem($new_item);
+    }
   }
 
   class album_item {
