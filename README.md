@@ -16,6 +16,6 @@ The models are the logic used to interface witht he database. They are found in 
 
 ### Restful API
 
-The restful API can be found in images/php/app/routes/web.php
+The restful routes for the API can be found in `images/php/app/routes/web.php`. The routes are caught by controllers in `images/php/app/app/http/Controllers/`.
 
 
