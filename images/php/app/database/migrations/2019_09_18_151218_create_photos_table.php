@@ -23,9 +23,6 @@ class CreatePhotosTable extends Migration
             $table->string('small_image_url');
             $table->string('small_image_url_thumbnail');
             $table->timestamps();
-
-            $table->index(['album_id']);
-            $table->foreign('album_id')->references('id')->on('albums');
         });
     }
 

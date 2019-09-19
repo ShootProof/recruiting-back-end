@@ -25,7 +25,3 @@ class AlbumPhoto extends Model
         return $this->hasOne('App\Album');
     }
 }
-
-
-
-}
