@@ -9,12 +9,12 @@ class Gallery
     private $title;
     private $description;
 
-    public function __construct($user_id, $title, $description)
+    public function __construct(User $user, $title, $description)
     {
-        $this->first_name = $first_name;
-        $this->last_name = $last_name;
-        $this->email = $email;
-        $this->password_hash = $password_hash;
+        $this->id = uniqid();
+        $this->user_id = $user->getId();
+        $this->title = $title;
+        $this->description = $description;
     }
 
     public function getId()
@@ -22,23 +22,18 @@ class Gallery
         return $this->id;
     }
 
-    public function getFirstName()
+    public function getTitle()
     {
-        return $this->first_name;
+        return $this->title;
     }
 
-    public function getLastName()
+    public function getDescription()
     {
-        return $this->last_name;
+        return $this->description;
     }
 
-    public function getEmail()
+    public function getUserId()
     {
-        return $this->email;
-    }
-
-    public function getPasswordHash()
-    {
-        return $this->password_hash;
+        return $this->user_id;
     }
 }
