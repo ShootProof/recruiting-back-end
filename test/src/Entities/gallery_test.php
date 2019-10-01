@@ -28,4 +28,9 @@ final class GalleryTest extends TestCase
     {
         $this->assertEquals($this->gallery->getDescription(), "This is just a test gallery");
     }
+
+    public function testGetUserId()
+    {
+        $this->assertEquals($this->gallery->getUserId(), $this->user->getId());
+    }
 }
